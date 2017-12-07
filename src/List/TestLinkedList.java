@@ -32,7 +32,21 @@ public class TestLinkedList {
         list.add(5, "Norway"); // Add it to the list at index 5
         System.out.println("(6)" + list);
 
-        
+        list.add(0, "Poland"); // Same as list.addFirst("Poland")
+        System.out.println("(7)" + list);
+
+        // Remove elements from the list
+        list.remove(0); // Same as list.remove("Poland") in this case
+        System.out.println("(8)" + list);
+
+        list.remove(2); // Remove the element at index 2
+        System.out.println("(9)" + list);
+
+        list.remove(list.size() - 1); // Remove the last element
+        System.out.print("(10)" + list + "\n(11) ");
+
+        for (String s: list)
+            System.out.print(s.toUpperCase() + " ");
 
     }
 }
