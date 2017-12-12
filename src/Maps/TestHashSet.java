@@ -1,6 +1,6 @@
 package Maps;
 
-/**
+/*
  * Created by Jeprox on 12/5/17.
  */
 

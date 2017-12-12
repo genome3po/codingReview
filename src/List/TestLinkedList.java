@@ -1,6 +1,6 @@
 package List;
 
-/**
+/*
  * Created by Jeprox on 12/6/17.
  */
 
