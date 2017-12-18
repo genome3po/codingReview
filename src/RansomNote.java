@@ -54,8 +54,8 @@ import java.util.*;
 
 public class RansomNote {
 
-    Map<String, Integer> magazineMap;
-    Map<String, Integer> noteMap;
+    private Map<String, Integer> magazineMap;
+    private Map<String, Integer> noteMap;
 
     public RansomNote(String magazine, String note) {
 
@@ -94,7 +94,6 @@ public class RansomNote {
             else if(x.getValue() > magazineMap.get(key)) {
                     return false;
             }
-
         }
         return true;
     }
